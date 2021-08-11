@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -6,7 +7,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: artist-relations-team
+  owner: user:nebhale
   # system: artist-engagement-portal
   # providesApis:
   #   - artist-api
