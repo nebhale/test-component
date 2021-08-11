@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-component
+  description: A Test Component
+spec:
+  type: service
+  lifecycle: experimental
+  owner: artist-relations-team
+  # system: artist-engagement-portal
+  # providesApis:
+  #   - artist-api
